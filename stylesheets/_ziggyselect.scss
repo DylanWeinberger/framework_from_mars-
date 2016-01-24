@@ -1,0 +1,44 @@
+
+// default and large screen
+
+@media all and (min-width: 700px) {
+    .ziggy_select {
+
+	position: absolute;
+	top: 40%;
+	left: 1%;
+	// height: 200px;
+	// width: 200px;
+	select {
+		width: 400px;
+		background: transparent;
+		font-family: 'Permanent Marker', cursive;
+		color: #394D9D;
+		font-size: 36px;
+		border: 5px solid $rebel_red;
+	}
+}
+}
+
+
+// Mobile site
+
+@media screen and (max-width: 700px) {
+    .ziggy_select {
+
+	position: absolute;
+	top: 20%;
+	left: 10%;
+	margin: auto;
+	// height: 200px;
+	// width: 200px;
+	select {
+		width: 90%;
+		background: transparent;
+		font-family: 'Permanent Marker', cursive;
+		color: $cremish;
+		font-size: 10vw;
+		border: 1px solid $golden_years;
+	}
+}
+}

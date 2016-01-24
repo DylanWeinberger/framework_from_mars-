@@ -1,0 +1,210 @@
+@media all and (min-width: 700px) {
+  .container {
+    background-color: #060606; } }
+@media screen and (max-width: 700px) {
+  .container {
+    background: #060606; } }
+.buttons_from_mars {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 80%;
+  width: 20%; }
+  .buttons_from_mars button {
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #3a4b9c;
+    color: #BB2B56;
+    transition: .5s; }
+  .buttons_from_mars button:hover {
+    background-color: #BB2B56;
+    color: #3a4b9c; }
+
+@media (max-width: 700px) {
+  .mobile_buttons_from_mars {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%; }
+    .mobile_buttons_from_mars button {
+      font-size: 5vw;
+      border-radius: .7;
+      font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+      padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+      background-color: #F8D9BA;
+      color: #FF4610;
+      transition: .5s; }
+    .mobile_buttons_from_mars button:hover {
+      background-color: #FF4610;
+      color: #F8D9BA; } }
+@media all and (min-width: 700px) {
+  .ziggy_select {
+    position: absolute;
+    top: 40%;
+    left: 1%; }
+    .ziggy_select select {
+      width: 400px;
+      background: transparent;
+      font-family: 'Permanent Marker', cursive;
+      color: #394D9D;
+      font-size: 36px;
+      border: 5px solid #BB2B56; } }
+@media screen and (max-width: 700px) {
+  .ziggy_select {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    margin: auto; }
+    .ziggy_select select {
+      width: 90%;
+      background: transparent;
+      font-family: 'Permanent Marker', cursive;
+      color: #F8D9BA;
+      font-size: 10vw;
+      border: 1px solid #FF4610; } }
+.starman-1 {
+  font-size: 12px; }
+
+.starman-2 {
+  font-size: 24px; }
+
+.starman-3 {
+  font-size: 36px; }
+
+.starman-4 {
+  font-size: 48px; }
+
+.starman-5 {
+  font-size: 60px; }
+
+.starman-6 {
+  font-size: 72px; }
+
+.starman-7 {
+  font-size: 84px; }
+
+.starman-8 {
+  font-size: 96px; }
+
+.starman-9 {
+  font-size: 108px; }
+
+.starman-10 {
+  font-size: 120px; }
+
+@media all and (min-width: 700px) {
+  .starman-1 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-1 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 12px;
+      color: #D0333E;
+      transform: rotate(-19deg); }
+
+  .starman-2 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-2 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 24px;
+      color: #D0333E;
+      transform: rotate(-19deg); }
+
+  .starman-3 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-3 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 36px;
+      color: #D0333E;
+      transform: rotate(-19deg); }
+
+  .starman-4 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-4 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 48px;
+      color: #D0333E;
+      transform: rotate(-19deg); }
+
+  .starman-5 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-5 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 60px;
+      color: #D0333E;
+      transform: rotate(-19deg); }
+
+  .starman-6 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-6 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 72px;
+      color: #D0333E;
+      transform: rotate(-19deg); }
+
+  .starman-7 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-7 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 84px;
+      color: #D0333E;
+      transform: rotate(-19deg); }
+
+  .starman-8 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-8 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 96px;
+      color: #D0333E;
+      transform: rotate(-19deg); }
+
+  .starman-9 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-9 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 108px;
+      color: #D0333E;
+      transform: rotate(-19deg); }
+
+  .starman-10 {
+    position: absolute;
+    top: 5%;
+    left: 5%; }
+    .starman-10 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 120px;
+      color: #D0333E;
+      transform: rotate(-19deg); } }
+@media screen and (max-width: 700px) {
+  .starman-5 {
+    position: absolute;
+    top: -5px;
+    margin: auto; }
+    .starman-5 h1 {
+      font-family: 'Bangers', cursive;
+      font-size: 5vw;
+      color: #F8D9BA;
+      transform: rotate(-6deg); } }
+
+/*# sourceMappingURL=main.css.map */

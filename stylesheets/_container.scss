@@ -1,0 +1,28 @@
+@media all and (min-width: 700px) {
+	.container {
+	   	// uncomment below when using a background image.
+		// background-image: url();
+		// background-position: center;
+		// background-size: 100%;
+		// background-repeat: repeat;
+		// background-attachment: fixed;
+		background-color: #060606;
+	}
+}	
+
+// Mobile site
+
+@media screen and (max-width: 700px) {
+	.container{
+		background: #060606;
+		// uncomment below for a centered background image.
+		// background-image: url(images/mobile-bowie.png);
+		// background-position: 50% 60%;
+		// background-size: 40%;
+		// background-repeat: no-repeat;
+		// background-attachment: fixed;
+		// .background-image{
+		// 	margin: 80% 0 0 0;
+		// }
+	}
+}

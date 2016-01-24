@@ -1,0 +1,16 @@
+// Bowie Color pallette
+$rebel_red: #BB2B56;
+$stardust: rgba(58, 75, 156, 1);
+// These are essentially the same color except that the lower one is more opaque and transparent.
+$bluepac: rgba(58, 75, 156, .6);
+// Mobile color pallette
+$golden_years: #FF4610;
+$cremish: #F8D9BA;
+$whitish: #FFFFFF;
+
+
+// 
+@import 'container';
+@import 'buttons';
+@import 'ziggyselect';
+@import 'starman';

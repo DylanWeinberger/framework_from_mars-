@@ -1,0 +1,74 @@
+
+
+.buttons_from_mars {
+
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	top: 50%; 
+	left: 80%;
+	width: 20%;
+	
+	button {
+	font-size: 20px;
+	font-family: 'Permanent Marker', cursive;
+	padding: 20px;
+	margin-top: 50px;
+	background-color: $stardust;
+	color: $rebel_red;
+	transition: .5s;
+		}
+
+	button:hover {
+		
+	background-color: $rebel_red;
+	color: $stardust;
+	}
+
+
+}
+
+
+
+
+
+
+// Mobile site
+
+@media  (max-width: 700px) {
+   
+.mobile_buttons_from_mars {
+
+	position: static;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	
+		button {
+		font-size: 5vw;
+		border-radius: .7;
+		font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+		padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+		// margin-top: 50px;
+		background-color: $cremish;
+		color: $golden_years;
+		transition: .5s;
+			}
+
+		button:hover {
+			
+		background-color: $golden_years;
+		color: $cremish;
+		}
+	}	
+
+}
+
+
+
+
+
+
+
+
