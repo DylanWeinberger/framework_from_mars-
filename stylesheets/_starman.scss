@@ -1,8 +1,4 @@
 
- @for $i from 1 through 10 {
-      .starman-#{$i} { font-size: 12px * $i; }   }
-
-
 // default and large screen
 
 @media all and (min-width: 700px) {
