@@ -11,8 +11,9 @@ This framework uses two fonts found on google fonts. Please paste the link tags 
 
 Color Scheme
 The color scheme for the desktop version uses two main colors
-$rebel_red is a pinkish red and $stardust is a deep blue. Both colors were inspired by a piece of artwork featuring david bowies face.
+$rebel_red is a pinkish red and $stardust is a deep blue. Both colors were inspired by the artwork below david bowies face.
 This piece was used for the background of the david bowie juke box.
+<img src="css/images/bowie.png" width = "400px" />
 
 # .starman classes
 
